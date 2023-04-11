@@ -245,6 +245,66 @@ msgstr ""
 msgid "second"
 msgstr ""
 
+msgid "Lets cause havoc!"
+msgstr ""
+
+msgid "Charging up my I out of AI"
+msgstr ""
+
+msgid "I\'m bored, lets go cause havoc!"
+msgstr ""
+
+msgid "This is the best day of my life!"
+msgstr ""
+
+msgid "More More MORE!!"
+msgstr ""
+
+msgid "Today is going to be a good day!"
+msgstr ""
+
+msgid "I\'m feeling under the weather ..."
+msgstr ""
+
+msgid "You have Pissed me off!"
+msgstr ""
+
+msgid "I love F**cking sh*t up!"
+msgstr ""
+
+msgid "Burn baby burn!"
+msgstr ""
+
+#, python-brace-format
+msgid "Hello {name}! Nice to meet you."
+msgstr ""
+
+#, python-brace-format
+msgid "I think we will work well together {name}!"
+msgstr ""
+
+#, python-brace-format
+msgid "Damit i missed {name}!"
+msgstr ""
+
+msgid "I love everyone around me!"
+msgstr ""
+
+msgid "Where did everyone go?"
+msgstr ""
+
+msgid "All, by, my, self, dont wanna be, all, By, My, self,"
+msgstr ""
+
+msgid "Im feeling sleepy, ZzzzZZzz ..."
+msgstr ""
+
+msgid "Im going to bed Good night!"
+msgstr ""
+
+msgid "See you Soon"
+msgstr ""
+
 #, python-brace-format
 msgid "Uploading data to {to} ..."
 msgstr ""
