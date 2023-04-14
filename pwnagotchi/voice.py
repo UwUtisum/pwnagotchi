@@ -25,6 +25,8 @@ class Voice:
             self._('Hi, I\'m Pwnagotchi! Starting ...'),
             self._('New day, new hunt, new pwns!'),
             self._('Lets cause havoc!'),
+            self._('A new Day, new devices to play with.'),
+            self._('Time to F**k sh*t up'),
             self._('Hack the Planet!')])
 
     def on_ai_ready(self):
@@ -101,6 +103,8 @@ class Voice:
             return random.choice([
                 self._('Yo {name}! Sup?').format(name=peer.name()),
                 self._('Hey {name} how are you doing?').format(name=peer.name()),
+                self._('Hey {name} nice to see you again!').format(name=peer.name()),
+                self._('Look who we have here, is that {name} i see?').format(name=peer.name()),
                 self._('Unit {name} is nearby!').format(name=peer.name())])
 
     def on_lost_peer(self, peer):
@@ -126,7 +130,7 @@ class Voice:
             self._('Nobody wants to play with me ...'),
             self._('I feel so alone ...'),
             self._('Where did everyone go?'),
-            self._('All, by, my, self, dont wanna be, all, By, My, self,'),
+            self._('All, by, my, self, dont wanna be... all, By, My, self,'),
             self._('Where\'s everybody?!')])
 
     def on_napping(self, secs):
@@ -140,6 +144,7 @@ class Voice:
         return random.choice([
             self._('Good night.'),
             self._('Im going to bed Good night!'),
+            self._('Sleepy time!'),
             self._('See you Soon'),
             self._('Zzz')])
 
@@ -164,6 +169,8 @@ class Voice:
         return random.choice([
             self._('Just decided that {mac} needs no WiFi!').format(mac=sta['mac']),
             self._('Deauthenticating {mac}').format(mac=sta['mac']),
+            self._('*Bonk* {mac}').format(mac=sta['mac']),
+            self._('i wonder what this button dose on {mac}').format(mac=sta['mac']),
             self._('Kickbanning {mac}!').format(mac=sta['mac'])])
 
     def on_handshakes(self, new_shakes):
